@@ -1,25 +1,168 @@
-## AWS Amplify React+Vite Starter Template
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 
-This repository provides a starter template for creating applications using React+Vite and AWS Amplify, emphasizing easy setup for authentication, API, and database capabilities.
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>My Project Page</title>
+  <script src="behavior.js"></script>
 
-## Overview
+  <link href="https://apply.holbertonschool.com/level2/school.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
 
-This template equips you with a foundational React application integrated with AWS Amplify, streamlined for scalability and performance. It is ideal for developers looking to jumpstart their project with pre-configured AWS services like Cognito, AppSync, and DynamoDB.
+  <style type="text/css" media="screen">
+    body {
+      text-align: center;
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f4f4f4;
+    }
 
-## Features
+    .project-section {
+      background-color: white;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 800px;
+      box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+      text-align: left;
+    }
 
-- **Authentication**: Setup with Amazon Cognito for secure user authentication.
-- **API**: Ready-to-use GraphQL endpoint with AWS AppSync.
-- **Database**: Real-time database powered by Amazon DynamoDB.
+    .project-section video {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
 
-## Deploying to AWS
+    .social-icons {
+      float: right;
+      margin-top: -40px;
+      margin-right: 10px;
+    }
 
-For detailed instructions on deploying your application, refer to the [deployment section](https://docs.amplify.aws/react/start/quickstart/#deploy-a-fullstack-app-to-aws) of our documentation.
+    ul {
+      padding-left: 20px;
+    }
 
-## Security
+    .bio-tweet {
+      margin-top: 30px;
+      font-style: italic;
+      background-color: #fff;
+      padding: 15px;
+      border-radius: 10px;
+      border-left: 4px solid #1DA1F2;
+    }
 
-See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
+    .video-row {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 
-## License
+.video-row video {
+  width: 48%;
+  border-radius: 10px;
+  height: auto;
+}
 
-This library is licensed under the MIT-0 License. See the LICENSE file.
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <ul class="nav">
+      <li class="logo">&#9733;</li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="tweets.html">Project</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <div class="social-icons">
+      <a href="https://twitter.com/share" class="twitter-share-button" data-show-count="false">Tweet</a>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+      <div class="fb-share-button"
+        data-href="https://sarika-sh.github.io/My-Personal-Portfolio/index.html"
+        data-layout="button"
+        data-size="small">
+      </div>
+    </div>
+  </header>
+
+  <h1>Welcome to My Project Page</h1>
+
+  <div class="video-row">
+  <video controls>
+    <source src="images/myvideo.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+    
+      <video controls>
+    <source src="images/myvideo2.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <video controls>
+    <source src="images/myvideo3.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+</div>
+  
+   <h2>Accenture Smart Textile Project – Bio Thread</h2>
+
+    <p><strong>Features:</strong></p>
+    <ul>
+      <li>Continuous tracking of health indicators</li>
+      <li>Comfortable and wearable like any other clothing</li>
+      <li>Automatically maintains accurate health records</li>
+      <li>Accessible for GPs and clinics</li>
+    </ul>
+
+    <p><strong>Materials:</strong></p>
+    <ul>
+      <li>EeonTex Conductive Fabric for e-textiles</li>
+      <li>Silver-coated nylon threads for attaching sensors</li>
+    </ul>
+
+    <p><strong>Who it benefits:</strong></p>
+    <ul>
+      <li>Cardiovascular & respiratory patients</li>
+      <li>People with miscellaneous disorders</li>
+    </ul>
+
+    <p><strong>Advantages:</strong></p>
+    <ul>
+      <li>No social stigma, comfortable design</li>
+      <li>Usable by all age groups (children, elderly)</li>
+      <li>Real-time feedback with reports for professionals</li>
+      <li>Travel-friendly and breathable</li>
+    </ul>
+
+    <div class="bio-tweet">
+      <p><strong>Advantage:</strong> Bio Thread - Smart textile shirt featuring:</p>
+      <p>
+        • Continuous health tracking<br />
+        • Comfortable, wearable design<br />
+        • Self-manageable with real-time feedback<br />
+        • Great for cardiovascular, respiratory, and other conditions<br />
+        • Travel-efficient and socially acceptable<br />
+        #SmartHealthcare #WearableTech #Innovation
+      </p>
+    </div>
+  </div>
+
+  <p><a href="index.html">Back to Home</a></p>
+
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous"
+    src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v18.0"
+    nonce="xyz"></script>
+</body>
+
+</html>
