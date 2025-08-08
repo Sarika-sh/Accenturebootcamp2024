@@ -1,168 +1,41 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+# Accenture Smart Textile Project – Bio Thread
 
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <title>My Project Page</title>
-  <script src="behavior.js"></script>
+A smart textile project focused on continuous health monitoring through comfortable, wearable fabric technology. This project blends innovation in e-textiles with practical healthcare solutions, designed to assist cardiovascular, respiratory, and other patients.
 
-  <link href="https://apply.holbertonschool.com/level2/school.css" rel="stylesheet">
-  <link href="styles.css" rel="stylesheet">
+---
 
-  <style type="text/css" media="screen">
-    body {
-      text-align: center;
-      font-family: Arial, sans-serif;
-      padding: 20px;
-      background-color: #f4f4f4;
-    }
+📸 Preview
+![Accenture](https://github.com/user-attachments/assets/099b9776-c61e-4676-88da-f6630b30e4e0)
 
-    .project-section {
-      background-color: white;
-      border-radius: 10px;
-      padding: 20px;
-      margin: 20px auto;
-      max-width: 800px;
-      box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
-      text-align: left;
-    }
+## Features
 
-    .project-section video {
-      width: 100%;
-      height: auto;
-      border-radius: 10px;
-      margin-bottom: 15px;
-    }
+* Continuous tracking of key health indicators
+* Comfortable, non-intrusive wearable design
+* Automatic maintenance of accurate health records
+* Easily accessible data for GPs and clinics
 
-    .social-icons {
-      float: right;
-      margin-top: -40px;
-      margin-right: 10px;
-    }
+---
 
-    ul {
-      padding-left: 20px;
-    }
+## Materials Used
 
-    .bio-tweet {
-      margin-top: 30px;
-      font-style: italic;
-      background-color: #fff;
-      padding: 15px;
-      border-radius: 10px;
-      border-left: 4px solid #1DA1F2;
-    }
+* EeonTex conductive fabric for e-textiles
+* Silver-coated nylon threads for sensor integration
 
-    .video-row {
-  display: flex;
-  gap: 20px;
-  margin-top: 20px;
-  justify-content: center;
-  flex-wrap: wrap;
-}
+---
 
-.video-row video {
-  width: 48%;
-  border-radius: 10px;
-  height: auto;
-}
+## Benefits
 
-  </style>
-</head>
+* Eliminates social stigma with stylish, comfortable clothing
+* Suitable for all age groups, including children and the elderly
+* Provides real-time feedback and detailed reports for healthcare professionals
+* Travel-friendly, breathable, and durable for daily use
 
-<body>
+---
 
-  <header>
-    <ul class="nav">
-      <li class="logo">&#9733;</li>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="tweets.html">Project</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
+## Live Demo / More Info
 
-    <div class="social-icons">
-      <a href="https://twitter.com/share" class="twitter-share-button" data-show-count="false">Tweet</a>
-      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+Explore the details and updates in the portfolio's **Tweets** section:
+[**View on My Portfolio**](https://sarika-sh.github.io/My-Personal-Portfolio/tweets.html)
 
-      <div class="fb-share-button"
-        data-href="https://sarika-sh.github.io/My-Personal-Portfolio/index.html"
-        data-layout="button"
-        data-size="small">
-      </div>
-    </div>
-  </header>
+---
 
-  <h1>Welcome to My Project Page</h1>
-
-  <div class="video-row">
-  <video controls>
-    <source src="images/myvideo.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-    
-      <video controls>
-    <source src="images/myvideo2.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-
-  <video controls>
-    <source src="images/myvideo3.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-
-</div>
-  
-   <h2>Accenture Smart Textile Project – Bio Thread</h2>
-
-    <p><strong>Features:</strong></p>
-    <ul>
-      <li>Continuous tracking of health indicators</li>
-      <li>Comfortable and wearable like any other clothing</li>
-      <li>Automatically maintains accurate health records</li>
-      <li>Accessible for GPs and clinics</li>
-    </ul>
-
-    <p><strong>Materials:</strong></p>
-    <ul>
-      <li>EeonTex Conductive Fabric for e-textiles</li>
-      <li>Silver-coated nylon threads for attaching sensors</li>
-    </ul>
-
-    <p><strong>Who it benefits:</strong></p>
-    <ul>
-      <li>Cardiovascular & respiratory patients</li>
-      <li>People with miscellaneous disorders</li>
-    </ul>
-
-    <p><strong>Advantages:</strong></p>
-    <ul>
-      <li>No social stigma, comfortable design</li>
-      <li>Usable by all age groups (children, elderly)</li>
-      <li>Real-time feedback with reports for professionals</li>
-      <li>Travel-friendly and breathable</li>
-    </ul>
-
-    <div class="bio-tweet">
-      <p><strong>Advantage:</strong> Bio Thread - Smart textile shirt featuring:</p>
-      <p>
-        • Continuous health tracking<br />
-        • Comfortable, wearable design<br />
-        • Self-manageable with real-time feedback<br />
-        • Great for cardiovascular, respiratory, and other conditions<br />
-        • Travel-efficient and socially acceptable<br />
-        #SmartHealthcare #WearableTech #Innovation
-      </p>
-    </div>
-  </div>
-
-  <p><a href="index.html">Back to Home</a></p>
-
-  <div id="fb-root"></div>
-  <script async defer crossorigin="anonymous"
-    src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v18.0"
-    nonce="xyz"></script>
-</body>
-
-</html>
